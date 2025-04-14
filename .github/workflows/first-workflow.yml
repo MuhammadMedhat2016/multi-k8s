@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Greetings
-        run: echo "Hello World" | echo "Muhammad Medhat"
+        run: echo "Hello World" && echo "Muhammad Medhat"
       - name: Farwell
-        run: echo "Goodbye" | echo "Muhammad Medhat"
+        run: echo "Goodbye" && echo "Muhammad Medhat"
